@@ -11,7 +11,7 @@ public class ProductResourceAssembler implements ResourceAssembler<Product, Reso
 	@Override
 	public Resource<Product> toResource(Product product) {
 		
-		Resource<Product> productResource = new Resource<>(product,
+		return new Resource<>(product,
 				linkTo(methodOn(ProductController.class).one(product.getId())).withSelfRel(),
 				linkTo(methodOn(ProductController.class).all()).withRel("product")
 			);
