@@ -1,0 +1,10 @@
+runtime: java
+env: flex
+runtime_config:
+  jdk: openjdk8
+env_variables:
+handlers:
+- url: /.*
+  script: 
+manual_scaling: 
+  instances: 1
