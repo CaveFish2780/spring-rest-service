@@ -6,6 +6,6 @@ env_variables:
   SPRING_PROFILES_ACTIVE: "gcp,mysql"
 handlers:
 - url: /.*
-  script: this field is required, but ignored
+  script: auto
 manual_scaling: 
   instances: 1
