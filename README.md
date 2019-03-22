@@ -3,7 +3,9 @@
 Has following syntax:
 
   Get:
+    
     list all: url/products
+    
     list one: url/products/{id}
   
   POST:
