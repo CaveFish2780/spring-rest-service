@@ -6,7 +6,7 @@ Has following syntax:
     
     list all: url/products
     
-    list one: url/products/{id}
+    list one: url/products/{id} //id is of type Long. example localhost:8080/products/2
   
   POST:
     
