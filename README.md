@@ -9,11 +9,14 @@ Has following syntax:
     list one: url/products/{id}
   
   POST:
+    
     new product: url/products
   
   PUT:
+    
     complete: url/products/{id}/complete
   
   DELETE:
+    
     cancel: url/products/{id}/cancel
     
